@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4f93e1-d56e-416d-9fc4-a505a82599a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wangxufeng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charRNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/jayLyrics.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/jieba-dict/dict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/threeBodyTheory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,32 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/charRNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-              <folding>
-                <element signature="e#14#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramFiles/Anaconda3/envs/python35/Lib/site-packages/textgenrnn/textgenrnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="312" column="60" selection-start-line="312" selection-start-column="60" selection-end-line="312" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramFiles/Anaconda3/envs/python35/Lib/site-packages/textgenrnn/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="190" column="64" selection-start-line="190" selection-start-column="64" selection-end-line="190" selection-end-column="64" />
+            <state relative-caret-position="264">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -72,6 +42,7 @@
       <find>max_length</find>
       <find>context_size</find>
       <find>rnn_size</find>
+      <find>dim_embedding</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,7 +84,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../textgenrnn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GPLAT-DATA-MODEL" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -176,8 +147,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19546892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19546892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,30 +210,12 @@
     <entry file="file://$PROJECT_DIR$/dataset/sample.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181225_220213.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="79" column="57" lean-forward="true" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181225_220213.txt" />
     <entry file="file://$PROJECT_DIR$/dataset/threeBodyTheory.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181225_235703.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1344">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181226_051439.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181225_235703.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181226_051439.txt" />
     <entry file="file://$PROJECT_DIR$/dataset/threeBodyTheoryCorpus.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12528">
@@ -276,35 +230,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_233131.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_230142.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_225524.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_235044.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_234220.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181228_154521.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_192444.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_233131.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_230142.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_225524.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_235044.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_234220.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181228_154521.txt" />
+    <entry file="file://$PROJECT_DIR$/reviewGen_gentext_20181227_192444.txt" />
     <entry file="file://$PROJECT_DIR$/dataset/jayLyrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -353,9 +285,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/charRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/ProgramFiles/Anaconda3/envs/python35/Lib/site-packages/textgenrnn/textgenrnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="7032">
           <caret line="312" column="60" selection-start-line="312" selection-start-column="60" selection-end-line="312" selection-end-column="60" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
@@ -365,18 +304,8 @@
     </entry>
     <entry file="file://D:/ProgramFiles/Anaconda3/envs/python35/Lib/site-packages/textgenrnn/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="4320">
           <caret line="190" column="64" selection-start-line="190" selection-start-column="64" selection-end-line="190" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/charRNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding>
-            <element signature="e#14#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
