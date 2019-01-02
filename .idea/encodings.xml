@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/dataset/sampleCorpus.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reviewGen_gentext_20181225_220213.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reviewGen_gentext_20181225_235703.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reviewGen_gentext_20181226_051439.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reviewGen_gentext_20181227_192444.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reviewGen_gentext_20181228_154521.txt" charset="GBK" />
+  </component>
+</project>

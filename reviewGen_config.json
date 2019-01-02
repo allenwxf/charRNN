@@ -1,0 +1,1 @@
+{"word_level": true, "single_text": true, "name": "reviewGen", "is_csv": false, "dim_embeddings": 100, "max_length": 5, "rnn_size": 64, "rnn_layers": 8, "train_size": 0.8, "rnn_bidirectional": false, "max_words": 10000}
